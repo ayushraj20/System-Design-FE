@@ -24,7 +24,7 @@ Practical Use Cases -
 1. Temporary Data Storage: Storing data that is only needed for the duration of the page session, such as form inputs,
                            temporary states, and session-specific configurations.
 
-3. Multi-Tab Isolation: Ensuring that data is isolated between tabs, which can be useful for applications where multiple
+2. Multi-Tab Isolation: Ensuring that data is isolated between tabs, which can be useful for applications where multiple
                         sessions need to be managed independently in different tabs.            
 */
 

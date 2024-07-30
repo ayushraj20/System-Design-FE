@@ -15,11 +15,13 @@ Data Persistence -> Data stored in LocalStorage is persistent and will remain ev
 
 Data Structure -> {key : value} (value is always a string)
 
+Scope -> LocalStorage is scoped to the origin (domain and protocol). Data stored in LocalStorage by one origin cannot be accessed by another origin.
+
 Security -> Avoid storing sensitive data (e.g., passwords, tokens) in LocalStorage as it is accessible through JavaScript
             and can be vulnerable to XSS (Cross-Site Scripting) attacks.
 
 Practical Use Cases -
-1. User Preferences: Storing user settings and preferences such as theme (dark/light mode), language selection, and layout options.
+1. User Preferences: Storing user settings and preferences such as theme (dark/light theme mode), language selection, and layout options.
 2. Session Management: Keeping track of user session data without server-side storage, useful for lightweight applications.
 3. Caching: Caching data that does not change frequently, such as API responses, to improve performance and reduce server load.            
 */
